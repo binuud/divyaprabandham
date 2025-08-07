@@ -3,20 +3,22 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   margin: 1rem;
-  max-width: 768px;
 }
 
 header {
-  border-bottom: 1px solid #222;
+  border-bottom: 1px solid #f5a635;
   margin-bottom: 1rem;
 }
+
 
 footer {
   border-top: 1px solid #222;
   margin-top: 1rem;
+  text-align: center;
 }
 
 a {
   color: #00e;
   text-decoration: none;
 }
+
