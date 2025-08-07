@@ -1,0 +1,8 @@
+{{ define "main" }}
+  <div class="container mainContainer">
+    {{ .Content }}
+    {{ range .Pages }}
+        {{ partial "song.html" . }}
+    {{ end }}
+  </div>
+{{ end }}

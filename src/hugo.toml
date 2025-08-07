@@ -1,0 +1,47 @@
+baseURL = 'https://www.divyaprabandham.org/'
+languageCode = 'en-us'
+title = 'Divyaprabandham'
+theme = "shlokas"
+summaryLength   = 25
+
+[params]
+   
+    # Social Media Params
+    facebook   = ""
+    twitter    = ""
+    youtube    = ""
+    instagram  = ""
+    github     = ""
+    pinterest  = ""
+    linkedin   = ""
+
+
+# Configure the site menu here
+[menus]
+    [[menus.main]]
+        identifier = "index"
+        name = "Home"
+        pageRef = "/"
+        weight = 1
+
+    [[menus.main]]
+        identifier = "song"
+        name = "Song"
+        pageRef = "/song"
+        weight = 2
+
+    [[menus.main]]
+        identifier = "about"
+        name = "About"
+        pageRef = "/about"
+        weight = 5
+
+    [[menus.main]]
+        identifier = "contact"
+        name = "Contact"
+        pageRef = "/contact"
+        weight = 6
+
+# Don't touch this
+[markup.goldmark.renderer]
+    unsafe = true
