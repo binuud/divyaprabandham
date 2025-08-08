@@ -15,6 +15,8 @@ summaryLength   = 25
     pinterest  = ""
     linkedin   = ""
 
+    defaulSongImage = "https://dsclouddroid.s3-ap-southeast-1.amazonaws.com/218/public_102986b68a2da372f9b423ad1a57dfd700b1.jpg"
+
 
 # Configure the site menu here
 [menus]

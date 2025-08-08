@@ -14,11 +14,19 @@ header {
 footer {
   border-top: 1px solid #222;
   margin-top: 1rem;
+  padding:2rem 0;
   text-align: center;
 }
 
 a {
-  color: #00e;
+  color: #28B;
   text-decoration: none;
 }
 
+.songEntry img {
+  max-height:400px;
+}
+
+.songsPagination ul.pagination {
+  justify-content: center!important;
+}

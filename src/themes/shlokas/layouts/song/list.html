@@ -1,6 +1,10 @@
 {{ define "main" }}
     {{ .Content }}
-    {{ range .Pages }}
+    {{ range .Paginator.Pages }}
         {{ partial "song.html" . }}
     {{ end }}
+    <div class="songsPagination">
+        {{ partial "pagination.html" . }}
+    </div>
 {{ end }}
+
